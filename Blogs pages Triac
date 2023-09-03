@@ -1,0 +1,207 @@
+<?php
+include('dashboard/connection.php');
+include 'nav.php';
+?>
+
+<!-- SECTION-1 IMPORT FROM ABOUT PAGE-->
+<section id="about-sec-1" class="blog-header container-fluid mx-0 px-0 d-flex  align-items-end">
+    <!-- <div class="d-flex flex-column  p-4 about-sec-1-left wid align-items-center align-items-md-start justify-content-center h-100">
+        <h1 class="mb-4 ps-md-5 fw-bold all-page-heading">Blogs & News</h1>
+        <p class="w-75 ps-md-5" style="text-align: justify;">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores error adipisci, sequi modi voluptates eveniet sapiente magni saepe veritatise omnis totam rem.
+        </p>
+    </div> -->
+
+    <div class="left-sided-text position-relative">
+        <div style="" class="fs-2 mb-5 pb-5 px-4 left-sided-text-div">
+        Blogs & News
+            <p class="left-sided-content fw-semibold mt-3 text-light">
+            Explore our Research and Development section to get familiar from the ,
+Semiconductor trends, exhibitions and our events.
+
+            </p>
+        </div>
+    </div>
+    
+</section>
+<!-- SECTION-1 -->
+
+
+
+
+<section id="blogs-container">
+    <div class="container  mx-auto  py-4">
+        <!-- <p class="fw-semibold mb-2 text-center">Section 1</p> -->
+        <h3 class="fw-bold text-center mb-5 blogs-section-heading">Industry Trends & Insight</h3>
+        <div class="row">
+            <?php
+        
+         $limit = 8;
+         $offset = 0;
+                
+        if(isset($_REQUEST['paginate'])){
+                $offset = $_REQUEST['paginate'];
+            }
+        
+        
+        $query = "select * from blogs where category = 'Industry Trends & Insight' order by id DESC limit $limit offset $offset";
+        $result  = mysqli_query($conn, $query);
+        
+        while ($item = mysqli_fetch_assoc($result)) {
+        ?>
+            <div class=" col-lg-4 col-md-4 col-sm-6 col-12 my-4">
+                <div class="blog-card">
+                    <div class="blog-img"><img width="100%" height="100%" src="dashboard/<?php echo $item['logo']; ?>" alt=""></div>
+                    <div class="blog-footer">
+                        <div href="blog-detail.php?id=<?php echo $item['id']; ?>" class="blog-title"><?php echo $item['title']; ?></div>
+                        <p class="blog-detail "><?php echo $item['short_description']; ?></p>
+                        <a href="blog-detail.php?id=<?php echo $item['id']; ?>" class="blog-detail-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+             <?php } ?>
+        </div>
+    </div>
+    <div class="container  mx-auto  py-4">
+        <!-- <p class="fw-semibold mb-2 text-center">Section 2</p> -->
+        <h3 class="fw-bold text-center mb-5  blogs-section-heading">Manufacturers news</h3>
+        <div class="row">
+            <?php
+        $query = "select * from blogs where category = 'Industry News' order by id DESC limit $limit offset $offset";
+        $result  = mysqli_query($conn, $query);
+        $blogs = array();
+        while ($item = mysqli_fetch_assoc($result)) {
+        ?>
+            <div class=" col-lg-4 col-md-4 col-sm-6 col-12 my-4">
+                <div class="blog-card">
+                    <div class="blog-img"><img width="100%" height="100%" src="dashboard/<?php echo $item['logo']; ?>" alt=""></div>
+                    <div class="blog-footer">
+                        <div href="blog-detail.php?id=<?php echo $item['id']; ?>" class="blog-title"><?php echo $item['title']; ?></div>
+                        <p class="blog-detail "><?php echo $item['short_description']; ?></p>
+                        <a href="blog-detail.php?id=<?php echo $item['id']; ?>" class="blog-detail-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+             <?php } ?>
+        </div>
+    </div>
+    <div class="container  mx-auto  py-4">
+        <!-- <p class="fw-semibold mb-2 text-center">Section 3</p> -->
+        <h3 class="fw-bold text-center mb-5  blogs-section-heading">Events</h3>
+        <div class="row">
+            <?php
+        $query = "select * from blogs where category = 'Events' order by id DESC limit $limit offset $offset";
+        $result  = mysqli_query($conn, $query);
+        $blogs = array();
+        while ($item = mysqli_fetch_assoc($result)) {
+        ?>
+            <div class=" col-lg-4 col-md-4 col-sm-6 col-12 my-4">
+                <div class="blog-card">
+                    <div class="blog-img"><img width="100%" height="100%" src="dashboard/<?php echo $item['logo']; ?>" alt=""></div>
+                    <div class="blog-footer">
+                        <div href="blog-detail.php?id=<?php echo $item['id']; ?>" class="blog-title"><?php echo $item['title']; ?></div>
+                        <p class="blog-detail "><?php echo $item['short_description']; ?></p>
+                        <a href="blog-detail.php?id=<?php echo $item['id']; ?>" class="blog-detail-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+             <?php } ?>
+        </div>
+    </div>
+    <div class="container  mx-auto  py-4">
+        <!-- <p class="fw-semibold mb-2 text-center">Section 4</p> -->
+        <h3 class="fw-bold text-center mb-5  blogs-section-heading">Exhibitions</h3>
+        <div class="row">
+            <?php
+            
+        
+            
+        $query = "select * from blogs where category = 'Exhibitions' order by id DESC limit $limit offset $offset";
+        $result  = mysqli_query($conn, $query);
+        $blogs = array();
+        while ($item = mysqli_fetch_assoc($result)) {
+        ?>
+            <div class=" col-lg-4 col-md-4 col-sm-6 col-12 my-4">
+                <div class="blog-card">
+                    <div class="blog-img"><img width="100%" height="100%" src="dashboard/<?php echo $item['logo']; ?>" alt=""></div>
+                    <div class="blog-footer">
+                        <div href="blog-detail.php?id=<?php echo $item['id']; ?>" class="blog-title"><?php echo $item['title']; ?></div>
+                        <p class="blog-detail "><?php echo $item['short_description']; ?></p>
+                        <a href="blog-detail.php?id=<?php echo $item['id']; ?>" class="blog-detail-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+             <?php } ?>
+        </div>
+    </div>
+</section>
+
+<div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            
+            <?php
+                $off = 0;
+                for($i=0;$i<$offsets/$limit;){
+                    $i++;
+                    ?>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <?php 
+                    $off = $off+$limit;
+                    }?>
+            <li class="page-item"><a class="page-link" href="?paginate=<?php echo $off; ?>"><?php echo $i; ?></a></li>
+            
+            <li class="page-item">
+                <a class="page-link" href="?paginate=<?php echo $off - $limit; ?>" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+
+
+
+
+
+<style>
+    .blog-card {}
+
+    .blog-img {
+        width: 100%;
+        height: 200px;
+        background: #cdcdcd;
+    }
+
+    .blog-footer {
+        padding-top: 15px;
+    }
+
+    .blog-footer .blog-title {
+        text-decoration: none;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .blog-footer .blog-detail {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .blog-footer .blog-link {}
+</style>
+
+
+<?php include 'foot2.php' ?>
+
+</body>
+
+</html>

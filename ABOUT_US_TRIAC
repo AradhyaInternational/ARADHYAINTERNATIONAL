@@ -1,0 +1,464 @@
+<?php include 'nav.php' ?>
+
+
+<!-- SECTION-1 -->
+<section id="about-sec-1" class="about-sec-1 container-fluid mx-0 px-0  d-flex  align-items-end">
+    <!-- <div class="d-flex flex-column  p-4 about-sec-1-left wid align-items-center align-items-md-start justify-content-center h-100">
+        <h1 class="mb-4 ps-md-5 fw-bold all-page-heading">About us</h1>
+        <p class="w-75 ps-md-5" style="text-align: justify;">
+            Triac Electronics Pvt Ltd is an ISO 9001:2015 certified company, as a leader in Electronic and Automation parts distribution.
+            TRIAC was born in 2018, having a vision to supply reliable parts to the manufacturers as we saw there is large gap in the quality of parts, which were supplying from the open market.
+            We are serving successfully to our customers by maintaining reliable material management solutions and highest quality standards. Our strong sourcing capability and good relations with the customers and vendors is highly responsible for our success.
+
+        </p>
+    </div> -->
+
+    <div class="left-sided-text position-relative">
+        <div style="" class="fs-2 mb-5 pb-5 px-4 left-sided-text-div">
+            About us
+            <p class=" mt-3 text-light left-sided-content">
+                Triac Electronics Pvt Ltd is an ISO 9001:2015 certified company, as a leader in Electronic manufacturing
+                and Procurement services.
+                TRIAC was born in 2018, having a vision to supply reliable parts to the manufacturers as we saw there is
+                large gap in the quality of parts, which were supplying from the open market.
+                We are serving successfully to our customers by maintaining reliable material management solutions and
+                highest quality standards. Our strong sourcing capability and good relations with the customers and
+                vendors is highly responsible for our success.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- SECTION-1 -->
+
+<section id="about-sec-2" class="my-2 my-sm-3 my-md-5 py-sm-3 py-md-5 py-2 position-relative ">
+
+
+    <div class="container d-flex align-items-center flex-column flex-md-row flx-row p-md-3 p-3 mb-5">
+        <div class="d-flex flex-column wid align-items-md-start align-items-center">
+            <h4 class="fw-bold mb-2">Our Values</h4>
+            <p class="about-p">
+                “ It’s not hard to make decisions once you know what your values are”.
+                At TRIAC, We sincerely care about our team& their family, customers, business partners and the community
+                around the world.
+                We have diversity that make sure, everyone around us getting the right opportunity and guidance.
+                Our DNA fundamental is all about ethics, accountability, integrity and the passion for excellence.
+
+            </p>
+        </div>
+        <div class="d-flex wid justify-content-lg-end justify-content-center">
+            <img src="images/about-1.png" alt="" class="abou-sec-2-imgs">
+        </div>
+    </div>
+
+
+    <div class="container d-flex align-items-center flex-column flex-md-row flx-row p-md-3 p-3 mb-5">
+        <div class="d-flex flex-column wid align-items-md-end align-items-center order-md-2">
+            <h4 class="fw-bold mb-2">Our Mission</h4>
+            <p class="about-p right-p">
+                To provide our customers value added services for electronic component sourcing, supply chain solutions
+                and excess inventory management giving them a competitive advantage in our expertise, market
+                intelligence, technology, global reach, and competitive price.
+                We are always striving to connect with right market, partners and technology to give cost reduction in
+                their buying material so that their products and projects get delivered successfully.
+
+            </p>
+        </div>
+        <div class="d-flex wid justify-content-lg-start justify-content-center">
+            <img src="images/about-2.png" alt="" class="abou-sec-2-imgs">
+        </div>
+    </div>
+
+
+    <div class="container d-flex align-items-center flex-column flex-md-row flx-row p-md-3 p-3 mb-5">
+        <div class="d-flex flex-column wid align-items-md-start align-items-center">
+            <h4 class="fw-bold mb-2">Our Vision</h4>
+            <p class="about-p">
+                To be recognized as a top global electronic supply chain solutions company while solving the future
+                problems of the world.
+                And indulge our team in more and more social activities that make us feel we are great and excellent
+                company and our revenues are getting used to make a better world.
+
+            </p>
+        </div>
+        <div class="d-flex wid justify-content-lg-end justify-content-center">
+            <img src="images/about-3.png" alt="" class="abou-sec-2-imgs">
+        </div>
+    </div>
+
+</section>
+
+<section id="about-sec-5">
+    <h1 class="fw-bold mb-2 text-center">Our Team</h1>
+    <div class="row w-100 mt-5 px-3 mx-0">
+        <div class="col-md-6 mx-0 bg-img mb-3 mb-md-4 pb-4"><img class="h-100" src="images/group-pic.JPG" width="100%"
+                alt=""></div>
+        <div class="col-md-6 mx-0 bg-img mb-3 mb-md-4 pb-4"><img class="h-100" src="images/20230518_131956.jpg"
+                width="100%" alt=""></div>
+
+        <div class="col-md-6 mx-0 bg-img mb-3 mb-md-4 pb-4"><img class="h-100" src="images/i3.jpg" width="100%" alt="">
+        </div>
+        <div class="col-md-6 mx-0 bg-img mb-3 mb-md-4 pb-4"><img class="h-100" src="images/jeetesh_pic.png" width="100%"
+                alt=""></div>
+        <div class="col-md-6 mx-0 bg-img mb-3 mb-md-4 pb-4"><img class="h-100" height="193px" src="images/daria.jpg"
+                width="100%" alt=""></div>
+        <div class="col-md-6 mx-0 bg-img mb-3 mb-md-4 pb-4"><img class="h-100" height="193px" src="images/i4.jpg"
+                width="100%" alt=""></div>
+        <div class="col-md-6 mx-0 bg-img mb-3 mb-md-4 pb-4"><img class="h-100" height="193px"
+                src="images/triac_pannelpic.jpg" width="100%" alt=""></div>
+        <div class="col-md-6 mx-0 bg-img mb-3 mb-md-4 pb-4"><img class="h-100" height="193px"
+                src="images/office_meet.jpg" width="100%" alt=""></div>
+    </div>
+</section>
+
+
+<section id="about-sec-3" class="my-5">
+    <div class="container-fluid mx-0 px-0">
+        <div class="d-flex flex-column justify-content-center align-items-center py-3 text-center">
+            <p class="mb-0">Our Team</p>
+            <h1 class="fw-bold mb-2">Management</h1>
+            <p class="fw-semibold">We are helping to building future to clean & sustainable</p>
+        </div>
+        <div class="about-card-div w-100 row my-3 mx-0 justify-content-center">
+            <!-- 
+            <div class="d-flex justify-content-center align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3"></div>
+                <div class="fw-bold mb-1">Puneet Shrivastav</div>
+                <div class="mb-3">CEO,Founder</div>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui!</p>
+                <div class="d-flex">
+                    <a href="" class=" me-4 ico-round">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class=" me-4 ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class=" ico-round">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3"></div>
+                <div class="fw-bold mb-1">Puneet Shrivastav</div>
+                <div class="mb-3">CEO,Founder</div>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui!</p>
+                <div class="d-flex">
+                    <a href="" class=" me-4 ico-round">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class=" me-4 ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class=" ico-round">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div> -->
+            <div class="d-flex justify-content-between align-items-center flex-column text-center  mb-4 col-md-3 col-6">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3">
+                        <img src="images/jeetesh_pic.png" class="rounded-circle" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="fw-bold mb-1">Jeetesh Rajput</div>
+                    <div class="mb-3">CEO,Founder</div>
+                </div>
+                <p class="">An electrical engineer, young entrepreneur having five years of experience in international
+                    business, electronic components distribution, operations and banking.
+                </p>
+                <div class="d-flex">
+                    <a href="https://www.linkedin.com/in/jeetesh-rajput-731732171" class=" me-4 ico-round">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#!" class="ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3">
+                        <img src="images/mishra_test.png" class="rounded-circle" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="fw-bold mb-1">Subodh Mishra</div>
+                    <div class="mb-3">Sales Manager</div>
+                </div>
+                <p class="">
+                    An optimal business development executive who perfectly matches the need of customer and manages
+                    business relationships metaphorically.
+                </p>
+                <div class="d-flex">
+                    <a href="https://www.linkedin.com/in/subodh-mishra-he-his-him-562109168" class=" me-4 ico-round">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#!" class="ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3">
+                        <img src="images/manager_test.png" class="rounded-circle" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="fw-bold mb-1">Aashish Tiwari</div>
+                    <div class="mb-3">Business Developement Manager</div>
+                </div>
+                <p class="">
+                    An execuitve who is compassionate towards him work with linency for his work and pure dedication
+                    towards commitment .
+                </p>
+                <div class="d-flex">
+                    <a href="https://www.linkedin.com/in/aashish-tiwari-88a0061ab" class=" me-4 ico-round">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#!" class="ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3">
+                        <img src="images/swap_test.png" class="rounded-circle" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="fw-bold mb-1">Swapnil Srivastava</div>
+                    <div class="mb-3">Business Development Analyst </div>
+                </div>
+                <p class="">
+                    An electronics engineer, proven strategist, team builder, excellent communicator with, exceptional
+                    skills in business development.
+                </p>
+                <div class="d-flex">
+                    <a href="https://www.linkedin.com/in/swapnil-srivastava-925424229" class=" me-4 ico-round">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#!" class="ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about-card-div w-100 row my-3 mx-0 justify-content-center">
+            <!-- 
+            <div class="d-flex justify-content-center align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3"></div>
+                <div class="fw-bold mb-1">Puneet Shrivastav</div>
+                <div class="mb-3">CEO,Founder</div>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui!</p>
+                <div class="d-flex">
+                    <a href="" class=" me-4 ico-round">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class=" me-4 ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class=" ico-round">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3"></div>
+                <div class="fw-bold mb-1">Puneet Shrivastav</div>
+                <div class="mb-3">CEO,Founder</div>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui!</p>
+                <div class="d-flex">
+                    <a href="" class=" me-4 ico-round">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class=" me-4 ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class=" ico-round">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div> -->
+            <div class="d-flex justify-content-between align-items-center flex-column text-center  mb-4 col-md-3 col-6">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3">
+                        <img src="images/jeetesh_pic.png" class="rounded-circle" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="fw-bold mb-1">Deepak Khandelwal</div>
+                    <div class="mb-3">Purchase Manager</div>
+                </div>
+                <p class="">An electronics engineer, experienced professional and extremely sincere towards his work.
+                    Having strong hands on International purchase and strong interpersonal skills along with excellent
+                    communication makes him an important part of the team.
+                </p>
+                <div class="d-flex">
+                    <a href="linkedin.com/in/deepak-khandelwal-3685b1195" class=" me-4 ico-round">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#!" class="ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3">
+                        <img src="images/mishra_test.png" class="rounded-circle" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="fw-bold mb-1">Adarsh Chandra</div>
+                    <div class="mb-3">Senior Purchase Executive</div>
+                </div>
+                <p class="">
+                    An enthusiastic team builder who works phenomenally with building block of the company.Having
+                    exceptional talent and supereme grip on his work makes him a different character of TRIAC Family.
+                </p>
+                <div class="d-flex">
+                    <a href="linkedin.com/in/adarsh-chandra-3886661b9" class=" me-4 ico-round">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#!" class="ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3">
+                        <img src="images/manager_test.png" class="rounded-circle" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="fw-bold mb-1">Janardan Pant</div>
+                    <div class="mb-3">Technical Sales Coordinator</div>
+                </div>
+                <p class="">
+                    An execuitve who have an amazing talent of explaining company policies to prestigious clients and to
+                    deliver the best of company to the client.Convincing the client from company's commitment and
+                    dedicated working makes him a special talent among the sales team.
+                </p>
+                <div class="d-flex">
+                    <a href="linkedin.com/in/janardan-pant-4b9a7b254" class=" me-4 ico-round">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#!" class="ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3">
+                        <img src="images/swap_test.png" class="rounded-circle" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="fw-bold mb-1">Sumit Kumar</div>
+                    <div class="mb-3">Technical Sales Engineer </div>
+                </div>
+                <p class="">
+                    A technical personal with well versed knowlege of technical sales. Committed towards his job and
+                    having a talent to learn and explore new logics and strategies. Follows and explicits his curiosity
+                    to learn new traits and tactics of corporate world.
+                </p>
+                <div class="d-flex">
+                    <a href="linkedin.com/in/sumit-kumar-45baab240" class=" me-4 ico-round">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#!" class="ico-round">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- <section id="about-sec-4" class="my-5">
+        <div class="container-fluid mx-0 px-0">
+            <div class="d-flex flex-column justify-content-center align-items-center py-3 text-center">
+            <h1 class="fw-bold mb-2">Advisory Board</h1>
+            <p class="fw-semibold">We are helping to building future to clean & sustainable</p>
+            </div>
+            <div class="about-card-div w-100 row my-3 mx-0 justify-content-center">
+
+                <div class="d-flex justify-content-center align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3"></div>
+                    <div class="fw-bold mb-1">Puneet Shrivastav</div> 
+                    <div class="mb-3">CEO,Founder</div>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui!</p>
+                    <div class="d-flex">
+                        <a href="" class=" me-4 ico-round">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class=" me-4 ico-round">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class=" ico-round">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3"></div>
+                    <div class="fw-bold mb-1">Puneet Shrivastav</div> 
+                    <div class="mb-3">CEO,Founder</div>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui!</p>
+                    <div class="d-flex">
+                        <a href="" class=" me-4 ico-round">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class=" me-4 ico-round">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class=" ico-round">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column text-center  mb-4 col-md-3 col-6">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3"></div>
+                    <div class="fw-bold mb-1">Puneet Shrivastav</div> 
+                    <div class="mb-3">CEO,Founder</div>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui!</p>
+                    <div class="d-flex">
+                        <a href="" class=" me-4 ico-round">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class=" me-4 ico-round">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class=" ico-round">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column text-center mb-4  col-md-3 col-6">
+                    <div style="height: 80px; width: 80px ;" class="rounded-circle shadow bg-light mb-3"></div>
+                    <div class="fw-bold mb-1">Puneet Shrivastav</div> 
+                    <div class="mb-3">CEO,Founder</div>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui!</p>
+                    <div class="d-flex">
+                        <a href="" class=" me-4 ico-round">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class=" me-4 ico-round">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class=" ico-round">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section> -->
+
+
+<?php include 'foot2.php' ?>
+
+</body>
+
+</html>
