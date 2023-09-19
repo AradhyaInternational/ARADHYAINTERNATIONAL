@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: 6900d1;
+    margin-left: -50%;
+    margin-right: -50%;
+}
+.navbar{
+    padding: 20px !important;
+    
+}
+.nav-item{
+margin-left: 40px;
+margin-bottom: 10px;
+}
+.nav-link{
+    color: blueviolet;
+    font-size: 12px;
+    padding: 0 0 5px 0;
+    display: unset;
+}
+.navbar-brand img{
+    width: 125px ;
+
+}
+.active-home{
+    border-bottom: 2px solid #ed1919;
+}
+.nav-link :hover{
+border-bottom: 2px solid #ed1919;
+}
